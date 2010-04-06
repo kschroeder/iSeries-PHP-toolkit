@@ -6,9 +6,6 @@ require_once 'library/Itk/Connection/Adapter/Mock.php';
 require_once 'library/Itk/PgmAbstract.php';
 require_once 'library/Itk/Exception.php';
 require_once 'library/Itk/Pgm/Exception.php';
-
-
-
 require_once 'PHPUnit/Framework/TestCase.php';
 
 /**

@@ -12,7 +12,7 @@ require_once 'library/Itk/Connection/Exception.php';
 require_once 'library/Itk/Connection/Adapter/Exception.php';
 require_once 'library/Itk/Pgm/Exception.php';
 
-require_once 'PHPUnit\Framework\TestCase.php';
+require_once 'PHPUnit/Framework/TestCase.php';
 
 /**
  * Test_Mock test case.

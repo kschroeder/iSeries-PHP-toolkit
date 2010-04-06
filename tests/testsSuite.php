@@ -1,13 +1,13 @@
 <?php
 
-require_once 'PHPUnit\Framework\TestSuite.php';
+require_once 'PHPUnit/Framework/TestSuite.php';
 
-require_once 'tests\Itk_Connection_AdapterAbstractTest.php';
+require_once 'tests/Itk_Connection_AdapterAbstractTest.php';
 
-require_once 'tests\Itk_Connection_ManagerTest.php';
+require_once 'tests/Itk_Connection_ManagerTest.php';
 
-require_once 'tests\Test_MockTest.php';
-require_once 'tests\Test_CommonPgmTest.php';
+require_once 'tests/Test_MockTest.php';
+require_once 'tests/Test_CommonPgmTest.php';
 
 /**
  * Static test suite.

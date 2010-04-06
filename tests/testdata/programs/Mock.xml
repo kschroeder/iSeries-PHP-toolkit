@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calls>
+	<call name="USERLIB/USERPGM">
+		<params>
+			<param name="PROD_ID">xyz101</param>
+			<param name="STORE_LOC">a1001</param>
+			<param name="PRICE">0.00</param>
+		</params>
+		<returns>
+			<return name="PROD_ID"></return>
+			<return name="STORE_LOC"></return>
+			<return name="AMOUNT">10.99</return>
+		</returns>
+	</call>
+</calls>

@@ -135,4 +135,9 @@ abstract class Itk_PgmAbstract
 		}
 		return $this->_return;
 	}
+	
+	public function toArray()
+	{
+		return $this->_data;
+	}
 }

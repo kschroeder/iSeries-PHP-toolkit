@@ -25,12 +25,12 @@ class Itk_Connection_Adapter_Live extends Itk_Connection_AdapterAbstract
 			$program->getDescription()
 		);
 		if ($prog === false) {
-			throw new Itk_Connection_Adapter_Exception('Unable to prepare program: ' . i5_error());
+			throw new Itk_Connection_Adapter_Exception('Unable to prepare program: ' . i5_errormsg());
 		}
 		$returnValues = $program->getReturn();
 		
 		if (!i5_program_call($prog, $program->toArray(), $returnValues)) {
-			throw new Itk_Connection_Adapter_Exception('Unable to execute program: ' . i5_error());
+			throw new Itk_Connection_Adapter_Exception('Unable to execute program: ' . i5_errormsg());
 		}
 		$results = array();
 		foreach ($returnValues as $var) {
